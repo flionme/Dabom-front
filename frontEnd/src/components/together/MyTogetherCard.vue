@@ -136,5 +136,5 @@ onMounted(() => {
 </template>
 
 <style scoped>
-@import url(@/assets/together/MyTogetherCard.css);
+@import url(@/assets/together/myTogetherCard.css);
 </style>
