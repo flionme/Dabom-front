@@ -16,6 +16,6 @@ const props = defineProps(['videoInfo']);
 </template>
 
 <style scoped>
-@import url(../../assets/Video_Player/Video_Player.css);
+@import url(@/assets/Video_Player/Video_Player.css);
 
 </style>
