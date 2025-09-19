@@ -2,7 +2,7 @@
 import TogetherMasterModal from '@/components/together_room/TogetherMasterModal.vue'
 import TogetherRoomChat from '@/components/together_room/TogetherRoomChat.vue'
 import TogetherRoomNavigator from '@/components/together_room/TogetherRoomNavigator.vue'
-import Video_Player_Component from '@/components/video-player/Video_Player_Component.vue'
+import VideoPlayerComponent from '@/components/video-player/video_player_component.vue'
 import Modal from '@/components/main/Modal.vue'
 
 import Stomp from 'stompjs'
@@ -141,7 +141,7 @@ onUnmounted(() => {
     <!-- Video Container -->
     <div class="video-container" :class="{ 'modal-open': stateModal.chatModal }">
       <div class="video-player">
-        <Video_Player_Component v-if="subscribed" :video_url="togetherInfo.videoUrl" :socket="socket"
+        <VideoPlayerComponent v-if="subscribed" :video_url="togetherInfo.videoUrl" :socket="socket"
                                 :togetherIdx="togetherInfo.togetherIdx" :isMaster="isMaster"/>
       </div>
     </div>
