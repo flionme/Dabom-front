@@ -153,5 +153,5 @@ const sendApi = async () => {
 </template>
 
 <style scoped>
-@import url(@/assets/together/CreateTogetherModal.css);
+@import url(@/assets/together/createTogetherModal.css);
 </style>
