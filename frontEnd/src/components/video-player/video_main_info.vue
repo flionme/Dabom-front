@@ -172,7 +172,7 @@ onMounted(async () => {
 </template>
 
 <style scoped>
-@import url('@/assets/Video_Player/Video_Player.css');
+@import url('@/assets/video_player/video_player.css');
 
 .channel-buttons {
   padding: 0.5rem 0.5rem;
