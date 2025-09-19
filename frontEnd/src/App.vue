@@ -16,6 +16,7 @@ const showFooter = computed(() => {
 <template>
   <HeaderComp />
   <RouterView />
+
   <FooterComp v-if="showFooter" />
 </template>
 
