@@ -77,5 +77,5 @@ const joinRoom = async () => {
 </template>
 
 <style scoped>
-@import url(@/assets/together/TogetherOptionCard.css);
+@import url(@/assets/together/togetherOptionCard.css);
 </style>
