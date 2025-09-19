@@ -9,5 +9,5 @@
 </template>
 
 <style scoped>
-@import url(@/assets/together/TogetherHeader.css);
+@import url(@/assets/together/togetherHeader.css);
 </style>
