@@ -21,3 +21,5 @@ const showFooter = computed(() => {
 </template>
 
 <style scoped></style>
+
+
