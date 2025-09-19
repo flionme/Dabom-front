@@ -12,6 +12,7 @@ const showFooter = computed(() => {
 
 </script>
 
+
 <template>
   <HeaderComp />
   <RouterView />
