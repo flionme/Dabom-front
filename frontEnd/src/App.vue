@@ -10,6 +10,7 @@ const showFooter = computed(() => {
   return route.name !== 'message';
 });
 
+
 </script>
 
 <template>
