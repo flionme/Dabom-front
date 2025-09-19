@@ -1,7 +1,7 @@
 <script setup>
-import Video_Main_Info from '@/components/video-player/Video_Main_Info.vue'
-import Video_Tag_Explain from '@/components/video-player/Video_Tag_Explain.vue'
-import Video_Comment from '@/components/video-player/Video_Comment.vue'
+import VideoMainInfo from '@/components/video-player/video_main_info.vue'
+import VideoTagExplain from '@/components/video-player/video_tag_explain.vue'
+import VideoComment from '@/components/video-player/video_comment.vue'
 import {useRoute} from 'vue-router'
 import {onMounted, reactive, ref, onUnmounted} from 'vue'
 import Hls from 'hls.js'
@@ -124,10 +124,10 @@ onUnmounted(() => {
         <div class="video-title-section">
           <h1 class="video-title">{{ videoInfo.title }}</h1>
         </div>
-        <Video_Tag_Explain :videoInfo="videoInfo"/>
-        <Video_Main_Info :videoInfo="videoInfo"/>
+        <VideoTagExplain :videoInfo="videoInfo"/>
+        <VideoMainInfo :videoInfo="videoInfo"/>
         <!-- 현재 사용자 프로필 정보를 댓글 컴포넌트에 전달 -->
-        <Video_Comment :current-user-profile="currentUserProfile"/>
+        <VideoComment :current-user-profile="currentUserProfile"/>
       </div>
     </div>
   </div>
