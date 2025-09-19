@@ -37,5 +37,5 @@ onMounted(() => {
 </template>
 
 <style scoped>
-@import url(@/assets/together/TogetherSearch.css);
+@import url(@/assets/together/togetherSearch.css);
 </style>
