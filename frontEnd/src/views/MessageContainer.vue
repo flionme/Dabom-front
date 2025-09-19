@@ -1,8 +1,8 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { storeToRefs } from 'pinia'; // Import storeToRefs
-import ChatList from '../components/Message/ChatList.vue'
-import ChatWindow from '../components/Message/ChatWindow.vue'
+import ChatList from '../components/message/ChatList.vue'
+import ChatWindow from '../components/message/ChatWindow.vue'
 import { getChatList, getProfile } from '@/api/chat'
 import useMemberStore from "@/stores/useMemberStore";
 import { useChatStore } from '@/stores/useChatStore';
@@ -173,7 +173,7 @@ function handleSendMessage(messageText) {
 
 <style scoped>
 /* @import url(../assets/main/main.css); */
-@import url(../assets/Message/MessageContainer.css);
+@import url(../assets/message/MessageContainer.css);
 </style>
 
 <style>
