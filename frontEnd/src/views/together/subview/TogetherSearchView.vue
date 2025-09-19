@@ -100,6 +100,6 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
-@import url('@/assets/together/Together.css');
+@import url('@/assets/together/together.css');
 @import url('@/assets/main/main.css');
 </style>
