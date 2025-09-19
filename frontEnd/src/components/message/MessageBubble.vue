@@ -37,6 +37,6 @@ const formattedTime = computed(() => {
 </template>
 
 <style scoped>
-@import url(../../assets/Message/MessageBubble.css);
+@import url(../../assets/message/MessageBubble.css);
 
 </style>

@@ -63,6 +63,6 @@ function handleChatClick(chatId) {
 </template>
 
 <style scoped>
-@import url(../../assets/Message/ChatList.css);
+@import url(../../assets/message/ChatList.css);
 
 </style>

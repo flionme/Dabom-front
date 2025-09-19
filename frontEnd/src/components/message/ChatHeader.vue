@@ -51,5 +51,5 @@ function handleMore() {
 </template>
 
 <style scoped>
-@import url(../../assets/Message/ChatHeader.css);
+@import url(../../assets/message/ChatHeader.css);
 </style>

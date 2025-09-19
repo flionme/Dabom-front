@@ -140,5 +140,5 @@ onMounted(() => {
 </template>
 
 <style scoped>
-@import url(../../assets/Message/MessageList.css);
+@import url(../../assets/message/MessageList.css);
 </style>

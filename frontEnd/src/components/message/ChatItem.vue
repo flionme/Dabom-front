@@ -51,6 +51,6 @@ function handleClick() {
 </template>
 
 <style scoped>
-@import url(../../assets/Message/ChatItem.css);
+@import url(../../assets/message/ChatItem.css);
 
 </style>

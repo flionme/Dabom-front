@@ -27,6 +27,6 @@ const avatarUrl = computed(() => props.chatAvatar.replace('50x50', '32x32'));
 </template>
 
 <style scoped>
-@import url(../../assets/Message/TypingIndicator.css);
+@import url(../../assets/message/TypingIndicator.css);
 
 </style>

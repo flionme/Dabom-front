@@ -7,6 +7,6 @@
 </template>
 
 <style scoped>
-@import url(../../assets/Message/OnlineStatus.css);
+@import url(../../assets/message/OnlineStatus.css);
 
 </style>
